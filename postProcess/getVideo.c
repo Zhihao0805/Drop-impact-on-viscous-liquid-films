@@ -8,6 +8,7 @@
 #include "navier-stokes/centered.h"
 #include "view.h"
 
+
 scalar f1[], f2[], omega[], vel[];
 char filename[80], Imagename[80];
 

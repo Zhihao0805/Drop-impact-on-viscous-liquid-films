@@ -97,3 +97,49 @@ dump
 log
 .project_config
 dropFilm-reduced
+
+# ===========================
+# Basilisk project extensions
+# ===========================
+
+# Ignore simulation output folders
+**/intermediate/
+**/frames/
+**/results/
+
+# Ignore Basilisk restart / temporary files
+**/restart*
+**/log*.dat
+
+# Ignore generated binary executables
+**/getVideo
+**/getVideo1
+**/dropFilm
+**/dropFilm-reduced-gravity
+**/Video
+**/*.out
+**/*.exe
+
+# Ignore image/video outputs
+**/*.ppm
+**/*.png
+**/*.mp4
+**/*.json
+**/*.bv
+
+# Ignore IDE / editor / system files
+.vscode/
+.idea/
+**/*.DS_Store
+**/*.swp
+*~
+dump/
+log/
+.project_config
+
+# Keep source and script files
+!*.c
+!*.h
+!*.py
+!*.sbatch
+!*.sh
